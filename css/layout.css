@@ -1,0 +1,101 @@
+@media all and (max-width: 767px) {
+    body {
+        /* min-width: 480px; */
+        width: 480px;
+        margin: 0px auto;
+    }
+    header {
+        height: 75px;
+        width: 480px;
+    }
+    #floatedC {
+        height: 125px;
+        width: 480px;
+    }
+    #floatedD {
+        height: 125px;
+        width: 480px;
+    }
+    aside {
+        height: 150px;
+        width: 480px;
+    }
+    #floatedE {
+        width: 240px;
+        height: 250px;
+        float: left;
+    }
+    #floatedF {
+        width: 240px;
+        height: 250px;
+        float: left;
+    }
+    #floatedG {
+        width: 240px;
+        height: 250px;
+        float: left;
+        clear: left;
+    }
+    #floatedH {
+        width: 240px;
+        height: 250px;
+        float: left;
+    }
+    footer {
+        width: 480px;
+        height: 80px;
+        clear: left;
+    }
+}
+
+@media all and (min-width:768px) {
+    body {
+        width: 960px;
+        /* max-width: 960px; */
+        margin: 0px auto;
+    }
+    header {
+        height: 100px;
+        width: 960px;
+    }
+    aside {
+        height: 600px;
+        width: 200px;
+        float: left;
+    }
+    #floatedC {
+        height: 200px;
+        width: 380px;
+        float: left;
+    }
+    #floatedD {
+        height: 200px;
+        width: 380px;
+        float: left;
+    }
+    #floatedE {
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
+    #floatedF {
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
+    #floatedG {
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
+    #floatedH {
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
+    footer {
+        width: 760px;
+        height: 150px;
+        float: left;
+    }
+}
