@@ -1,0 +1,10 @@
+ header,
+ aside,
+ footer,
+ section {
+     background-color: lightgray;
+ }
+ 
+ .container {
+     text-align: center;
+ }
