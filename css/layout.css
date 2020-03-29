@@ -1,8 +1,8 @@
 @media all and (max-width: 767px) {
     body {
-        /* min-width: 480px; */
         width: 480px;
         margin: 0px auto;
+        /* min-width: 480px; */
     }
     header {
         height: 75px;
@@ -51,8 +51,8 @@
 @media all and (min-width:768px) {
     body {
         width: 960px;
-        /* max-width: 960px; */
         margin: 0px auto;
+        /* max-width: 960px; */
     }
     header {
         height: 100px;
