@@ -1,0 +1,59 @@
+              @media all and (max-width: 767px) {
+                  header {
+                      background-color: rgb(200, 240, 140);
+                  }
+                  aside {
+                      background-color: rgb(188, 243, 105);
+                  }
+                  #floatedC {
+                      background-color: rgb(186, 252, 87);
+                  }
+                  #floatedD {
+                      background-color: rgb(178, 247, 75);
+                  }
+                  #floatedE {
+                      background-color: rgb(168, 248, 48);
+                  }
+                  #floatedF {
+                      background-color: rgb(168, 248, 48);
+                  }
+                  #floatedG {
+                      background-color: rgb(152, 243, 40);
+                  }
+                  #floatedH {
+                      background-color: rgb(152, 243, 40);
+                  }
+                  footer {
+                      background-color: rgb(145, 235, 0);
+                  }
+              }
+              
+              @media all and (min-width:768px) {
+                  header {
+                      background-color: rgb(255, 164, 111);
+                  }
+                  aside {
+                      background-color: rgb(255, 143, 79);
+                  }
+                  #floatedC {
+                      background-color: rgb(255, 143, 79);
+                  }
+                  #floatedD {
+                      background-color: rgb(255, 143, 79);
+                  }
+                  #floatedE {
+                      background-color: rgb(245, 130, 63);
+                  }
+                  #floatedF {
+                      background-color: rgb(245, 130, 63);
+                  }
+                  #floatedG {
+                      background-color: rgb(245, 130, 63);
+                  }
+                  #floatedH {
+                      background-color: rgb(245, 130, 63);
+                  }
+                  footer {
+                      background-color: rgb(255, 121, 43);
+                  }
+              }

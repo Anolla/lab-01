@@ -1,150 +1,139 @@
 @media all and (max-width: 767px) {
     body {
-        width: 480px;
-        margin: 0px auto;
-        /* min-width: 480px; */
+        width: 100vw;
+        /* margin: 0px auto; */
+        /* min-width: 100vw; */
     }
-    .container{
-
+    .container {
         display: flex;
-        flex-direction:column ;
+        flex-direction: column;
     }
-    
-    #div1{
-  
+    #div1 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    #div2{
+    #div2 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-
     header {
         height: 75px;
-        width: 480px;
-       
+        width: 100vw;
     }
     #floatedC {
         height: 125px;
-        width: 480px;
+        width: 100vw;
     }
     #floatedD {
         height: 125px;
-        width: 480px;
-        
+        width: 100vw;
     }
     aside {
         height: 150px;
-        width: 480px;
+        width: 100vw;
     }
     #floatedE {
-        width: 240px;
+        width: 50vw;
         height: 250px;
-        align-self:flex-start ;
+        align-self: flex-start;
     }
     #floatedF {
-        width: 240px;
+        width: 50vw;
         height: 250px;
-        align-self:flex-end ;
+        align-self: flex-end;
     }
     #floatedG {
-        width: 240px;
+        width: 50vw;
         height: 250px;
-      
         clear: left;
     }
     #floatedH {
-        width: 240px;
+        width: 50vw;
         height: 250px;
-      
     }
     footer {
-        width: 480px;
+        width: 100vw;
         height: 80px;
         clear: left;
         /* display: flex; */
         /* align-items: center;
         justify-content: center; */
-      
     }
 }
 
 @media all and (min-width:768px) {
     body {
-        width: 960px;
-        margin: 0px auto;
-        /* max-width: 960px; */
+        width: 100vw;
+        /* margin: 0px auto; */
+        /* max-width: 100%; */
+    }
+    .container {
+        width: 100vw;
     }
     header {
         height: 100px;
-        width: 960px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        order: 1;
+        width: 100vw;
     }
-   
     aside {
         height: 600px;
-        width: 200px;
+        width: 20vw;
         display: flex;
-    align-items: center;
-    justify-content: center;
-    order: 1;
-      
+        justify-content: center;
+        align-items: center;
     }
-    #innerDiv{
-        order: 2;
+    main {
+        flex-wrap: wrap;
         display: flex;
-        flex-direction: column;
-       
+        width: 100vw;
     }
-    
-    #div1{
-        order: 1;
+    #div3,
+    #div1,
+    #div2,
+    #div4 {
+        flex-wrap: wrap;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    #div2{
-        order: 2;
-        display: flex;
+    #div1,
+    #div2 {
+        width: 40vw;
     }
-    
+    #div3,
+    #div4,
+    #innerDiv {
+        width: 80vw;
+    }
     #floatedC {
         height: 200px;
-        width: 380px;
-      
+        width: 40vw;
     }
     #floatedD {
         height: 200px;
-        width: 380px;
-      
+        width: 40vw;
     }
     #floatedE {
-        width: 190px;
+        width: 20vw;
         height: 250px;
-      
     }
     #floatedF {
-        width: 190px;
+        width: 20vw;
         height: 250px;
-      
     }
     #floatedG {
-        width: 190px;
+        width: 20vw;
         height: 250px;
-      
     }
     #floatedH {
-        width: 190px;
+        width: 20vw;
         height: 250px;
-      
     }
     footer {
-        width: 760px;
+        width: 80vw;
         height: 150px;
-      
+        justify-content: center;
+        align-items: center;
     }
 }
