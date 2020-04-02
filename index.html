@@ -9,21 +9,35 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/modules.css">
 </head>
 
 <body>
     <div class='container'>
 
         <header>a</header>
-        <aside>b</aside>
-        <section id='floatedC'>c</section>
-        <section id='floatedD'>d</section>
-        <section id='floatedE'>e</section>
-        <section id='floatedF'>f</section>
-        <section id='floatedG'>g</section>
-        <section id='floatedH'>h</section>
-        <footer>i</footer>
+        <main>
+            <aside>b</aside>
+            <div id='innerDiv'>
+                <div id=div3>
+                    <section id='floatedC'>c</section>
+                    <section id='floatedD'>d</section>
+                </div>
+                <div id='div4'>
+                    <div id='div1'>
+                        <section id='floatedE'>e</section>
 
+                        <section id='floatedF'>f</section>
+                    </div>
+                    <div id='div2'>
+                        <section id='floatedG'>g</section>
+                        <section id='floatedH'>h</section>
+                    </div>
+                </div>
+                <footer>i</footer>
+
+            </div>
+        </main>
     </div>
 </body>
 
